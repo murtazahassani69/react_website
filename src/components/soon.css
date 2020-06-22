@@ -1,0 +1,36 @@
+.soon{
+      background: radial-gradient(#525252, #131313);
+      position: relative;
+
+}
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+footer{
+      min-height: 10vh;
+      background: #000;
+      padding-left: 10%;
+      padding-right: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+ul{
+display: flex;
+flex: 1;
+list-style: none;
+justify-content: space-between;
+}
+h1{
+      flex: 1;
+}
+.myh2{
+      padding-left: 12rem;
+      font-size: 3rem;
+      padding-bottom: 2rem;
+      margin-left: 30px;
+      padding-top: 5px;
+
+}

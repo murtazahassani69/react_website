@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+body{
+      /* justify-content: center; */
+      font-family: "Montserrat", sans-serif;
+      color: #fff !important;
+      box-sizing: border-box;
+      
+}
+html{
+      font-size: 62.5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+h1{
+      font-size: 2.5rem;
+      font-family: 'Pacifico', cursive;
+
+      font-weight: lighter;
+}
+h2{
+font-size: 5rem;
+font-family: 'Pacifico', cursive;
+font-weight: lighter;
+}
+h3{
+      font-size: 3.5rem;
+}
+h4{
+      font-size: 2rem;
+}
+p{
+      font-size: 10pxx;
+}
+a{
+      color: #fff !important;
+      text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@media screen and (max-width: 480px) {
+      html{
+            font-size: 50%;
+      }
+      logo{
+            flex: 1;
+      }
+      ul,li{
+            margin-left: 5rem;
+      }
+      .showcase{
+            grid-template-columns: 10% 1fr 10%;
+      }
+      img{
+            width: 100%;
+            object-fit: cover;
+      }
+      img, h3,.info{
+            grid-column: 2/3;
+            text-align: center   ;
+      
+      }
+      .cards{
+            flex-direction: column;
+            width: 100%;
+      }
+      .soon{
+             overflow: hidden;
+      }
+     
+    }
